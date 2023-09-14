@@ -7,7 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSqlite<PizzaContext>("Data Source=ContosoPizza.db")
+builder.Services.AddSqlite<PizzaContext>("Data Source=ContosoPizza.db");
 
 // Add the PromotionsContext
 
